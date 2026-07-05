@@ -1,76 +1,67 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MEAW</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEAW | Premium Cleaning</title>
 
-  <style>
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-      font-family:Arial,sans-serif;
-    }
-
-    body{
-      height:100vh;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      background:#06132d;
-      background-image:
-      radial-gradient(circle at top,#3559c7 0%,#06132d 70%);
-      color:white;
-      overflow:hidden;
-    }
-
-    .box{
-      text-align:center;
-    }
-
-    h1{
-      font-size:70px;
-      letter-spacing:10px;
-    }
-
-    p{
-      margin-top:15px;
-      font-size:22px;
-      opacity:.8;
-    }
-
-    a{
-      display:inline-block;
-      margin-top:35px;
-      padding:18px 40px;
-      border-radius:50px;
-      background:#06C755;
-      color:white;
-      text-decoration:none;
-      font-size:20px;
-      transition:.3s;
-    }
-
-    a:hover{
-      transform:scale(1.05);
-    }
-  </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="box">
+<header>
 
-<h1>MEAW</h1>
+    <div class="logo">
+        MEAW
+    </div>
 
-<p>Future of Cleaning</p>
+    <nav>
 
-<a href="https://lin.ee/92IIDmt" target="_blank">
-จองผ่าน LINE
-</a>
+        <a href="#">หน้าแรก</a>
 
-</div>
+        <a href="#">บริการ</a>
+
+        <a href="#">ราคา</a>
+
+        <a href="#">รีวิว</a>
+
+        <a href="#">ติดต่อ</a>
+
+    </nav>
+
+</header>
+
+
+<section class="hero">
+
+    <h1>
+
+        Premium Cleaning
+
+    </h1>
+
+    <p>
+
+        แม่บ้านรายวัน • รายชั่วโมง<br>
+        จองง่ายผ่าน LINE
+
+    </p>
+
+    <a class="line-button"
+
+    href="https://lin.ee/92IIDmt"
+
+    target="_blank">
+
+    จองผ่าน LINE
+
+    </a>
+
+</section>
+
+<script src="script.js"></script>
 
 </body>
+
 </html>
