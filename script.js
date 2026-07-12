@@ -1,1 +1,1 @@
-console.log("MEAW Website Ready");
+console.log("MEAW พร้อมใช้งาน!");
